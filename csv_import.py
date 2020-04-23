@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 def sort_order(csv_file):
-    # Function for sorting rows from CSV files (by ascending of date of birth)
+    # Function for sorting rows from CSV files (by the ascending order based on date of birth)
     with open(csv_file, 'r') as content_file:
         read_csv = csv.reader(content_file, delimiter=',')
 
